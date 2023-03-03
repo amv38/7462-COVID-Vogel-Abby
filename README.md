@@ -1,7 +1,7 @@
 Minnesota COVID Report
 ================
 
-Report last run: 2023-03-03 21:35:19
+Report last run: 2023-03-03 21:43:57
 
 ## Introduction
 
@@ -83,7 +83,7 @@ rate_data %>%
   xlim(c(0,500)) +
   xlab("7-day COVID-19 total cases per 100,000 people") +
   ylab(NULL) +
-  theme_bw() +
+  theme_minimal() +
   ggtitle("Distribution of county-level COVID-19 case rates, by state",
           subtitle = paste("Latest data:", max(rate_data$date)))
 ```
